@@ -2,8 +2,10 @@
 font-family: 'Poppins', sans-serif; */
 
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  /* --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe; */
+  --branding-color: #fd6f8e;
+  --secondary-color: #fff1f3;
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Golos Text", sans-serif;
 }
@@ -36,6 +38,10 @@ p {
 a {
   text-decoration: none;
   color: var(--branding-color);
+}
+
+img {
+  border-radius: 10px;
 }
 
 .hero {
@@ -78,6 +84,12 @@ a {
   color: white;
   line-height: 27px;
   padding: 15px 30px;
+  transition: all 100ms ease-in-out;
+}
+
+.btn-branding:hover {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
 }
 
 .btn-branding-outline {
@@ -86,6 +98,12 @@ a {
   border-radius: 4px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: all 100ms ease-in-out;
+}
+
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+  color: white;
 }
 
 .project-description {
