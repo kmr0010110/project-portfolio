@@ -33,10 +33,15 @@ p {
   line-height: 1.7;
 }
 
+a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 0;
+  padding: 100px 0;
 }
 .hero h1 {
   font-size: 96px;
@@ -47,7 +52,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 0;
+  padding: 60px 0;
 }
 
 .content h1 {
@@ -93,6 +98,11 @@ p {
 
 nav {
   padding: 20px 0;
+}
+
+nav h3 {
+  line-height: 40px;
+  /* color: var(--branding-color); */
 }
 
 nav ul {
