@@ -42,19 +42,19 @@ p {
   font-size: 24px;
 }
 
-.about-header {
+.content-container {
   padding: 160px 0;
 }
 
-.about-header h1 {
+.content-container h1 {
   font-size: 64px;
 }
 
-.about-header h2 {
+.content-container h2 {
   font-size: 18px;
 }
 
-.about-header-content {
+.content {
   margin: 30px;
 }
 
@@ -91,7 +91,7 @@ p {
     padding: 80px 20px;
   }
 
-  .about-header {
+  .content-container {
     text-align: center;
     padding: 0;
   }
