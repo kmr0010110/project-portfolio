@@ -20,15 +20,32 @@
     <title>Portfolio - Kira Rees</title>
   </head>
   <body>
-    <nav>
-      <img src="images/logo.png" class="logo" alt="" />
-      <ul>
-        <li>home</li>
-        <li>about</li>
-        <li>work</li>
-        <li>contact</li>
-      </ul>
-    </nav>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
+          <img
+            src="images/small_logo.jpeg"
+            class="logo d-block d-md-none"
+            alt=""
+          />
+        </a>
+        <ul>
+          <li class="active">
+            <a href="/">home</a>
+          </li>
+          <li>
+            <a href="/about.html">about</a>
+          </li>
+          <li>
+            <a href="/work.html">work</a>
+          </li>
+          <li>
+            <a href="/contact.html">contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
     <div class="hero">
       <h1>kira rees</h1>
