@@ -186,9 +186,9 @@ footer {
   background: var(--branding-color);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 600px) {
   h1 {
-    font-size: 52px;
+    font-size: 30px;
   }
 
   h2 {
